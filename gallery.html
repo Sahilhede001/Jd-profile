@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua D'silva - Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .instagram-gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* Add space between each iframe */
+        }
+
+        .instagram-gallery iframe {
+            width: 100%;
+            aspect-ratio: 4/5; /* Set aspect ratio to 4:5 */
+            max-width: 400px; /* Adjust max-width as needed */
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Joshua D'silva - Gallery</h1>
+        <nav class="top-nav">
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="gallery.html"><i class="fas fa-images"></i> Gallery</a>
+            <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
+        </nav>
+    </header>
+    <main>
+        <section class="instagram-gallery">
+            <!-- Embed Instagram Post 1 -->
+            <iframe src="https://www.instagram.com/p/CnJ3iDfvGPZ/embed/" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+
+            <!-- Embed Instagram Post 2 -->
+            <iframe src="https://www.instagram.com/p/C0XAF-ipGEw/embed/" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+
+            <!-- Embed Instagram Post 3 -->
+            <iframe src="https://www.instagram.com/p/CpFgFJ-I6p-/embed/" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+            
+            <!-- Add more iframe elements for additional images -->
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
